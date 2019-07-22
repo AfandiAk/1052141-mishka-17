@@ -1,0 +1,39 @@
+.advantages {
+  margin: 0 auto;
+  margin-top: 76px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.advantages__title {
+  margin: 0;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.advantages__item {
+  position: relative;
+  list-style-type: none;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.18;
+  color: $basicSecondTextColor;
+  &_ecology {
+    &::before {
+      position: absolute;
+      content: "";
+      width: 32px;
+      height: 37px;
+      top: 10px;
+      left: 10px;
+      background: url("../img/icon-feature-flower.svg") no-repeat;
+    }
+  }
+}

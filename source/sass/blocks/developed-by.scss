@@ -1,0 +1,26 @@
+.developed-by {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.developed-by__text {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 18px;
+  color: $basicSecondTextColor;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.developed-by__link {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.developed-by__svg-htmlacademy-logo {
+  fill: #63d1bb;
+}
