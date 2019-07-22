@@ -5,8 +5,8 @@
 @import "global.scss";
 @import "blocks/basic-title.scss";
 @import "blocks/site-header.scss";
-@import "blocks/main-nav.scss";
-@import "blocks/nav-list.scss";
+@import "blocks/main-nav";
+@import "blocks/nav-list";
 @import "blocks/main.scss";
 @import "blocks/catalog-nav.scss";
 @import "blocks/best-product-week.scss";
@@ -17,3 +17,8 @@
 @import "blocks/site-footer.scss";
 @import "blocks/social.scss";
 @import "blocks/developed-by.scss";
+@import "blocks/catalog";
+@import "blocks/product-cards";
+@import "blocks/product-card";
+@import "blocks/process-video";
+

@@ -19,7 +19,7 @@
   font-style: normal;
   font-stretch: normal;
   line-height: 1.18;
-  color: $best-product-weekTitleColor;
+  color: $bestProductWeekTitleColor;
   margin: 0;
   margin-top: 8px;
   text-transform: uppercase;
@@ -31,7 +31,7 @@
   font-style: normal;
   font-stretch: normal;
   line-height: 1.6;
-  color: $paragraphTextColor;
+  color: $basicFirstTextColor;
   margin: 0;
   margin-top: 30px;
 }
@@ -42,7 +42,7 @@
   font-style: normal;
   font-stretch: normal;
   line-height: 1.33;
-  color: $paragraphTextColor;
+  color: $basicFirstTextColor;
   padding-top: 10px;
   padding-bottom: 10px;
   &_second-col {
@@ -64,7 +64,7 @@
   font-style: normal;
   font-stretch: normal;
   line-height: 1.41;
-  color: $paragraphTextColor;
+  color: $basicFirstTextColor;
   text-align: center;
 }
 

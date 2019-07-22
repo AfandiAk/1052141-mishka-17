@@ -19,17 +19,17 @@
   font-style: normal;
   font-stretch: normal;
   line-height: 1.26;
-  color: $catalog-navTextColor;
+  color: $catalogNavTextColor;
   text-decoration: none;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 29px;
   padding-right: 185px;
   &_interior {
-    background-color: $catalog-nav1BackgroundColor;
+    background-color: $catalogNav1BackgroundColor;
   }
   &_toys {
-    background-color: $catalog-nav2BackgroundColor;
+    background-color: $catalogNav2BackgroundColor;
   }
 }
 

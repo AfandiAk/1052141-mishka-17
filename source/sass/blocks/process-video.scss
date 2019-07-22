@@ -1,0 +1,64 @@
+.process-video {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.process-video__wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.process-video__title {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  color: $basicSecondTextColor;
+  margin: 0;
+  padding-left: 90px;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 10px;
+    width: 32px;
+    height: 32px;
+    background: url("../img/icon-video.svg") no-repeat;
+  }
+}
+
+.process-video__container {
+  margin-top: 26px;
+  position: relative;
+}
+
+.process-video__button {
+  position: absolute;
+  width: 101px;
+  height: 77px;
+  top: 30px;
+  left: 85px;
+  background: url("../img/icon-play.svg") no-repeat;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.process-video__text {
+  margin-top: 34px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 24px;
+  color: $basicFirstTextColor;
+}
+
+.process-video__link {
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 0.94;
+  color: $buttonTextColor;
+}
