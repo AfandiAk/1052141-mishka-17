@@ -1,12 +1,16 @@
 .best-product-week {
   margin-top: 30px;
-  width: 100%;
 }
 
 .best-product-week__wrapper {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.best-product-week__wrapper picture {
+  width: 260px;
+  height: 315px;
 }
 
 .best-product-week__product-name {
@@ -56,6 +60,10 @@
   width: 100%;
 }
 
+.best-product-week__price-wrapper {
+  text-align: center;
+}
+
 .best-product-week__product-price {
   display: block;
   margin-top: 30px;
@@ -71,7 +79,103 @@
 .best-product-week__link-to-order {
   font-size: 17px;
   font-weight: bold;
-  line-height: 1.18;
+  line-height: 20px;
   margin-top: 28px;
   color: $buttonTextColor;
+}
+
+@media (min-width: $tabletWidth) {
+  .best-product-week__wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .best-product-week__title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .best-product-week__product-name {
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .best-product-week__title {
+    padding-left: 28px;
+    padding-right: 28px;
+    width: 167px;
+    text-align: center;
+  }
+
+  .best-product-week__description-wrapper {
+    width: 292px;
+  }
+
+  .best-product-week__product-description {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .best-product-week__price-wrapper {
+    width: 292px;
+  }
+
+  .best-product-week__wrapper picture {
+    position: absolute;
+    width: 333px;
+    height: 404px;
+    right: 50px;
+    top: 50px;
+  }
+
+  .best-product-week__link-to-order {
+    padding-left: 101px;
+    padding-right: 102px;
+  }
+}
+
+@media (min-width: $desktopWidth) {
+  .best-product-week {
+    margin-top: 130px;
+  }
+  
+  .best-product-week__product-name {
+    order: 1;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .best-product-week__title-wrapper {
+    justify-content: flex-start;
+  }
+
+  .best-product-week__title {
+    padding-left: 47px;
+    padding-right: 47px;
+    margin-right: 10px;
+  }
+
+  .best-product-week__description-wrapper {
+    margin-left: 175px;
+  }
+
+  .best-product-week__price-wrapper {
+    margin-left: 175px;
+  }
+
+  .best-product-week__wrapper picture {
+    width: 525px;
+    height: 636px;
+    right: 50px;
+    top: -50px;
+    z-index: -1;
+  }
+
 }

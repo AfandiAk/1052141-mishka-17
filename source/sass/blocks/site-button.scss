@@ -1,6 +1,5 @@
 .site-button {
-  display: block;
-  width: 260px;
+  display: inline-block;
   border: solid 2px hsl(0, 0%, 27%);
   background-color: rgb(255, 255, 255);
   padding-top: 20px;
@@ -9,5 +8,6 @@
   padding-right: 45px;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: center;
   text-decoration: none;
 }

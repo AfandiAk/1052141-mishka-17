@@ -12,3 +12,14 @@
 .product-cards__item {
   list-style-type: none;
 }
+
+@media (min-width: $desktopWidth) {
+  .product-cards__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,37 @@
+.nav-list-main__link {
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+@media (min-width: $tabletWidth) {
+  .nav-list-main {
+    order: 1;
+    margin-right: auto;
+    width: 334px;
+  }
+
+  .nav-list-main__link {
+    padding-left: 0;
+    margin-right: 30px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: $desktopWidth) {
+  .nav-list-main {
+    order: 0;
+    margin-right: auto;
+    width: 440px;
+  }
+
+  .nav-list-main__item {
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
+
+  .nav-list-main__link {
+    font-size: 17px;
+  }
+}
