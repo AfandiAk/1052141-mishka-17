@@ -3,14 +3,17 @@
 @import "fonts.scss";
 @import "variable.scss";
 @import "global.scss";
+@import "blocks/outer-container";
 @import "blocks/basic-title.scss";
+@import "blocks/site-button.scss";
 @import "blocks/site-header.scss";
 @import "blocks/main-nav";
-@import "blocks/nav-list";
+@import "blocks/nav-list-main";
+@import "blocks/nav-list-user";
+@import "blocks/nav-list-additional";
 @import "blocks/main.scss";
 @import "blocks/catalog-nav.scss";
 @import "blocks/best-product-week.scss";
-@import "blocks/site-button.scss";
 @import "blocks/advantages.scss";
 @import "blocks/reviews.scss";
 @import "blocks/contacts.scss";
@@ -21,4 +24,3 @@
 @import "blocks/product-cards";
 @import "blocks/product-card";
 @import "blocks/process-video";
-

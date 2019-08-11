@@ -1,0 +1,16 @@
+.outer-container {
+  margin: 0 auto;
+  width: 320px;
+}
+
+@media (min-width: $tabletWidth) {
+  .outer-container {
+    width: 768px;
+  }
+}
+
+@media (min-width: $desktopWidth) {
+  .outer-container {
+    width: 1150px;
+  }
+}

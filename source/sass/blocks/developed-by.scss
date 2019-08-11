@@ -24,3 +24,14 @@
 .developed-by__svg-htmlacademy-logo {
   fill: #63d1bb;
 }
+
+@media (min-width: $tabletWidth) {
+  .developed-by {
+    margin: 0;
+    padding: 0;
+  }
+
+  .developed-by__link {
+    margin-right: 0;
+  }
+}
