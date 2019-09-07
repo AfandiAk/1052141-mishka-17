@@ -1,5 +1,7 @@
 .site-footer {
-  margin-top: 50px;
+  margin-top: 58px;
+  padding-top: 26px;
+  background-color: $footerBackgroundColor;
 }
 
 .site-footer__logo-wrapper {
@@ -8,12 +10,16 @@
 
 @media (min-width: $tabletWidth) {
   .site-footer {
+    margin-top: 65px;
+    padding-top: 50px;
+  }
+
+  .site-footer__wrapper {
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 60px;
-    margin-top: 108px;
   }
 
   .site-footer__logo-wrapper {
@@ -23,6 +29,7 @@
 
 @media (min-width: $desktopWidth) {
   .site-footer {
-    margin-top: 156px;
+    margin-top: 105px;
+    padding-top: 50px;
   }
 }

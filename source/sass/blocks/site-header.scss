@@ -1,20 +1,18 @@
 .site-header {
-  padding-top: 22px;
-  padding-left: 30px;
-  padding-right: 30px;
+  /*padding-top: 22px;*/
 }
 
 .site-header__logo {
   display: block;
-  margin-left: 85px;
   width: 86px;
   height: 35px;
+  margin-left: 20px;
 }
 
 @media (min-width: $tabletWidth) {
   .site-header {
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 100%;
+    padding-top: 0;
   }
 
   .site-header__logo {
@@ -27,6 +25,10 @@
 }
 
 @media (min-width: $desktopWidth) {
+  .site-header {
+    padding: 0;
+  }
+
   .site-header__logo {
     margin: 0 auto;
     width: 149px;

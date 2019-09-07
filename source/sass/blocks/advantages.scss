@@ -1,6 +1,6 @@
 .advantages {
   margin: 0 auto;
-  margin-top: 76px;
+  margin-top: 28px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -18,8 +18,8 @@
 .advantages__item {
   position: relative;
   list-style-type: none;
-  padding-top: 70px;
-  padding-bottom: 10px;
+  padding-top: 66px;
+  padding-bottom: 17px;
   font-size: 17px;
   font-weight: bold;
   font-style: normal;
@@ -30,7 +30,7 @@
   &::before {
     position: absolute;
     content: "";
-    top: 10px;
+    top: 15px;
   }
 
   &_ecology {

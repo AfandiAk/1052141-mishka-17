@@ -22,13 +22,17 @@
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+  }
+
+  .nav-list-additional__wrapper {
     order: 2;
     margin-left: auto;
-    width: 333px;
+    width: 334px;
   }
 
   .nav-list-additional__item {
     display: none;
+    padding-top: 18px;
 
     &_delivery {
       display: block;
@@ -38,13 +42,25 @@
 
 @media (min-width: $desktopWidth) {
   .nav-list-additional {
-    width: 100%;
     justify-content: flex-start;
+    width: 1050px;
+    margin: 0 auto;
+  }
+
+  .nav-list-additional__wrapper {
+    width: 100%;
+    border-top: 1px solid $BorderColor;
+    background-color: $elemBackgroundColor;
+  }
+
+  .index-body .nav-list-additional__wrapper {
+    background-color: $indexTitleBackgroundColor;
   }
 
   .nav-list-additional__item {
-    padding-top: 30px;
+    padding-top: 16px;
     padding-bottom: 30px;
+    padding-left: 0;
     display: block;
 
     &_delivery {

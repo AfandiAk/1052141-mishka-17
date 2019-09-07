@@ -1,9 +1,14 @@
 .process-video {
-  margin-top: 60px;
+  margin-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
 }
 
+.process-video__wrapper {
+  border: 1px solid $BorderColor;
+  padding-top: 25px;
+  padding-bottom: 32px;
+}
 
 .process-video__title {
   font-size: 17px;
@@ -11,7 +16,7 @@
   line-height: 24px;
   color: $basicSecondTextColor;
   margin: 0;
-  padding-left: 93px;
+  padding-left: 90px;
   position: relative;
   &::before {
     position: absolute;
@@ -24,21 +29,24 @@
   }
 }
 
-.process-video__wrapper {
-  padding-left: 36px;
+.process-video__text-wrapper {
+  margin-top: 23px;
+  width: 260px;
+  text-align: center;
 }
 
-.process-video__container {
-  margin-top: 26px;
+.process-video__video-wrapper {
+  margin-top: 24px;
   position: relative;
   width: 260px;
+  margin-left: -1px;
 }
 
 .process-video__button {
   position: absolute;
   width: 101px;
   height: 77px;
-  top: calc(50% - 38px);
+  top: calc(50% - 40px);
   left: calc(50% - 50px);
   background: url("../img/icon-play.svg") no-repeat;
   padding: 0;
@@ -50,34 +58,47 @@
 }
 
 .process-video__text {
-  margin-top: 34px;
+  margin: 0;
   font-size: 13px;
   font-weight: normal;
   line-height: 24px;
-  padding-right: 32px;
+  padding-left: 34px;
+  padding-right: 34px;
   color: $basicFirstTextColor;
+  text-align: left;
 }
 
 .process-video__link {
-  margin-top: 28px;
+  margin-top: 24px;
   font-size: 17px;
   font-weight: bold;
-  line-height: 0.94;
+  line-height: 20px;
   padding-left: 24px;
   padding-right: 24px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   color: $buttonTextColor;
 }
 
 @media (min-width: $tabletWidth) {
   .process-video {
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    margin-top: 53px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
-  .process-video__container {
+  .process-video__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 45px;
+  }
+
+  .process-video__video-wrapper {
     width: 668px;
     order: -1;
+    margin-top: 0;
   }
 
   .process-video__title {
@@ -87,25 +108,28 @@
     padding-left: 107px;
 
     &::before {
-      top: -6px;
-      left: 47px;
+      top: -4px;
+      left: 41px;
     }
   }
 
-  .process-video__wrapper {
-    margin-top: 40px;
+  .process-video__text-wrapper {
+    margin-top: 33px;
     padding-left: 41px;
     padding-right: 40px;
+    width: 100%;
   }
 
   .process-video__text {
     font-size: 15px;
     line-height: 30px;
     margin: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .process-video__link {
-    margin-top: 40px;
+    margin-top: 35px;
     padding-left: 220px;
     padding-right: 220px;
   }
@@ -113,27 +137,36 @@
 
 @media (min-width: $desktopWidth) {
   .process-video {
-    padding-left: 760px;
-    padding-right: 50px;
+    padding-left: 682px;
     position: relative;
+    margin-top: 58px;
+    width: 1050px;
+    padding-right: 0;
   }
 
-  .process-video__container {
+  .process-video__wrapper {
+    padding-bottom: 0;
+  }
+
+  .process-video__video-wrapper {
     width: 682px;
     position: absolute;
     top: 0;
     left: 0;
+    margin-top: 0;
+    border: none;
   }
 
   .process-video__title {
-    margin-top: 47px;
-    padding-left: 0;
-    padding-top: 64px;
-    padding-right: 50px;
+    padding-left: 78px;
+    padding-top: 94px;
+    padding-right: 100px;
+    margin-top: 0;
+    border: none;
 
     &::before {
-      top: 0;
-      left: 0;
+      top: 40px;
+      left: 80px;
     }
   }
 
@@ -141,16 +174,22 @@
     padding-right: 0;
   }
 
-  .process-video__wrapper {
-    margin-top: 40px;
-    padding-left: 0;
-    padding-right: 0;
+  .process-video__text-wrapper {
+    padding-top: 32px;
+    padding-left: 78px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    margin-top: 0;
+    border: none;
+    text-align: left;
   }
 
   .process-video__link {
-    margin-top: 50px;
+    margin-top: 46px;
     padding-left: 43px;
-    padding-right: 43px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
 

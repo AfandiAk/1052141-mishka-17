@@ -1,7 +1,11 @@
-.social {
+.social__list {
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 25px;
 }
 
 .social__link {
@@ -11,7 +15,16 @@
 
 .social__svg-icon {
   fill: #231f20;
+
   &:hover {
     fill: #46c1ae;
+  }
+}
+
+@media (min-width: $tabletWidth) {
+  .social__list {
+    padding-bottom: 0;
+    margin-left: 95px;
+    margin-top: 5px;
   }
 }
